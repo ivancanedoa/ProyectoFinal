@@ -1,0 +1,11 @@
+#comida { background-color: rgb(72, 142, 229); }
+
+.container { padding: 15px; }
+
+.items1, .items2, .items3 { text-align: center;
+                            height: 160px; }
+
+.row { padding: 15px; }
+
+
+h1 { color: rgb(125, 1, 109); }

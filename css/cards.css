@@ -1,0 +1,9 @@
+/*DOCUMENTO CSS*/
+* { margin: 0;
+    padding: 0; }
+
+.tajetas { }
+
+.items { background-color: tomato;
+}
+ .item { background-color: cadetblue;}

@@ -1,0 +1,60 @@
+*{ box-sizing: border-box;}
+
+
+body { font-family: 'Inter Tight', sans-serif; 
+margin: 0;
+padding: 0;
+
+}
+
+.profile-image {
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 15%;
+    margin: 0 auto;
+    object-fit: cover;}
+
+header { 
+    padding: 50px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+nav { 
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(81, 81, 81);
+}
+
+nav a{
+    color: aliceblue;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+}
+
+aside { 
+    flex: 30px;
+    background-color:azure;
+    padding: 20px;
+}
+
+section{
+    flex: 70%;
+    background-color: beige;
+    padding: 20px;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: cyan;
+
+
+}

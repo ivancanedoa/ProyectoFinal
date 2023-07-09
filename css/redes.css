@@ -1,0 +1,18 @@
+/*DOCUMENTO CSS*/
+
+.cabecera { text-align: center;}
+
+
+.social {}
+
+.container { display: flex;
+            width: 30%; 
+            margin: auto;}
+
+a.item {width: 33.33%;
+        min-height: 200px;
+        text-align: center;
+        font-size: em;}
+
+/*PANTALLA MAYORES A 600px*/
+@media only screen and (min-widht: 600px)

@@ -1,0 +1,72 @@
+/*DOCUMENTO CSS*/
+body { margin: 0%;
+        padding: 0%;}
+
+.container { font-family: 'Inter Tight', sans-serif;
+            margin: 20px 10%;
+        display: flex;}
+.item1 {width: 10%;}
+.item2 {width: 13%;}
+.item3 {width: 60%;}
+.item4 {width: 17%;}
+input { text-align: right;
+        border: white;
+        border-radius: 10px;
+        outline: black solid 1px;
+        outline-offset: 2px;}
+input:active { text-align: left;}
+input:visited { text-align: left;}
+
+p { margin: 0;}
+
+.container p:hover { color: red;}
+
+.cuerpo {width: 80%;
+        display: flex;
+        margin: 0% 10% 0% 10%;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-bottom: 200px;  }
+
+.uno { width: 40%;}
+img { object-fit: cover;}
+.imagen { width: 100%;}
+
+.dos { width: 55%;}
+.dos p { margin-right: 10%;
+        font-family: 'Inter Tight', sans-serif; 
+        text-align: justify;}
+
+.tres { width: 40%;
+    font-family: 'Inter Tight', sans-serif; 
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;}
+
+.cuatro { width: 55%;
+        margin-top: 0%;
+        font-family: 'Inter Tight', sans-serif; 
+        text-align: justify;
+        line-height: 30px;}
+
+h1 { font-family: 'Inter Tight', sans-serif;}
+h2 { font-family: 'Inter Tight', sans-serif;
+        font-weight: 400;}
+.numero {width: 10%; 
+    font-family: 'Inter Tight', sans-serif;
+        font-weight: 900;
+    font-size:xx-large;
+    height: 60px;}
+
+.paso { width: 90%;
+        height: 60px;
+        padding: auto 0px;}
+            
+
+.proc { width: 100%;}
+
+footer { text-align: center;
+        margin-bottom: 50px;}
+footer p { font-family: 'Inter Tight', sans-serif;}

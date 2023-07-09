@@ -1,0 +1,28 @@
+/*DOCUMENTO CSS*/
+
+* { margin: 0
+    padding: 0; }
+
+header, section, article, footer, div, nav, aside, main { box-sizing: border-box; }
+
+    #gallery {  width: 100%;
+    min-height: 1px;              }
+
+    .container { width: 70%;
+        min-height: 1px;
+        background: purple;
+        margin: auto;
+       padding: 15px;
+    display: flex;
+/*flex-direction: column-reverse;*/
+/*flex-wrap: wrap;*/
+text-align: center;
+color: whitesmoke;
+font-size: 2em; }
+
+    .items { width: 33.33%;
+    height: 100px;
+background: orange;
+border-radius: 15px; }
+
+.self { align-self: flex-end;}

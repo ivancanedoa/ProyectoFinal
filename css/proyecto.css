@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.articulo{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    text-align: center;
+    font-size: 14px;
+}
+
+.articulo2{
+    font-family: 'Roboto Mono', monospace;
+}
+.articuloti{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+}
+.titulo{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    text-align: center;
+    font-size: 25px;
+    color: deepskyblue;
+}
+.frase{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: end;
+}
+.contacto{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.pie{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #007BFF;
+    text-align: center;
+    color: white;
+    height: 90px;
+    padding-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
